@@ -1,11 +1,11 @@
-# customer-message-tool
+# nextjs-tools
 ## Structure:
 NextJS (version: 13.4.19)  <—>  MySQL (version: 8.0.^)
 
 ## Evironment Variables:
 - MYSQL_HOST="***"
 - MYSQL_PORT="3306"
-- MYSQL_DATABASE="cmtool"
+- MYSQL_DATABASE="tuonghc_tools"
 - MYSQL_USER="***"
 - MYSQL_PASSWORD="***"
 
