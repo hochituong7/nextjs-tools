@@ -2,14 +2,14 @@ version: '3.8'
 services:
   db:
     image: mysql:8.0.34
-    container_name: nextjstools_db
+    container_name: cmtool_db
     restart: always
     ports:
       - 3306:3306
     env_file:
       - ../.env.development
     volumes:
-      - nextjstools_db:/var/lib/mysql
+      - cmtool_db:/var/lib/mysql
 
 volumes:
-  nextjstools_db:
+  cmtool_db:
