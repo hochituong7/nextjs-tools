@@ -23,4 +23,4 @@ env:
   variables:
     AWS_ACCOUNT_ID: "641131565149"
     AWS_DEFAULT_REGION: "ap-northeast-1"
-    IMAGE_REPO_NAME: "nextjs-tools"
+    IMAGE_REPO_NAME: "hochituong7/nextjs-tools"
