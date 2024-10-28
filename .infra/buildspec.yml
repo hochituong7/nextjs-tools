@@ -13,7 +13,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t my-image -f ./docker/Dockerfile .
-      - docker images  # List Docker images to verify build ---logs
+      - docker images  # List Docker images to verify build 
       - docker tag my-image:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest
       - docker images  # List Docker images to verify tagging
   post_build:
