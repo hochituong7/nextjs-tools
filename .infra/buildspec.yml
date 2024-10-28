@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
+      - cd docker  # Change to the directory containing the Dockerfile
       - docker build -t my-image .
       - docker images  # List Docker images to verify build
       - docker tag my-image:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest
